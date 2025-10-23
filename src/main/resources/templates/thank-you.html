@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Thank You</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<div th:replace="fragments/header :: *"></div>
+
+<main>
+    <h2>Thank You!</h2>
+    <p>Your request has been sent. We’ll get back to you soon.</p>
+    <a th:href="@{/}" class="btn">Return Home</a>
+</main>
+
+<div th:replace="fragments/footer :: *"></div>
+</body>
+</html>
+
